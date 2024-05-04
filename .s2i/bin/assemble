@@ -2,7 +2,6 @@
 
 set -e
 
-config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 cp dd-agent-java.jar /deployments
 ######## CUSTOMIZATION ENDS HERE ############
