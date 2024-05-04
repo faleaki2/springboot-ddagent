@@ -4,7 +4,7 @@ set -e
 
 ######## CUSTOMIZATION STARTS HERE ############
 find / -name dd-java-agent.jar
-cp dd-java-agent.jar /deployments
+cp /tmp/src/dd-java-agent.jar /deployments
 ######## CUSTOMIZATION ENDS HERE ############
 
 source "${JBOSS_CONTAINER_UTIL_LOGGING_MODULE}/logging.sh"
